@@ -1,0 +1,102 @@
+.contacts {
+	padding-top: 140px;
+	padding-bottom: 130px;
+}
+.contacts__container {
+	display: flex;
+	justify-content: space-between;
+}
+.contacts__left {
+	width: calc(50% - 20px);
+	padding-top: 30px;
+	padding-left: 120px;
+}
+.contacts__title {
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 38px;
+	color: var(--dark-color);
+
+}
+.phone--contacts {
+	display: inline-block;
+	margin-bottom: 20px;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 23px;
+}
+.address {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 23px;
+	color: var(--accent-color);
+	padding-left: 20px;
+	background-image: url(../img/svg/location.svg);
+	background-position: left 4px;
+	background-repeat: no-repeat;
+	padding-bottom: 40px;
+}
+.social {
+	display: flex;
+	align-items: center;
+}
+.social__item:not(:last-child) {
+	margin-right: 18px;
+}
+.social__link {
+	display: block;
+	width: 40px;
+	height: 40px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.social__link--fb {
+	background-image: url(../img/svg/Facebook.svg);
+}
+.social__link--insta {
+	background-image: url(../img/svg/Instagram.svg);
+}
+.social__link--in {
+	background-image: url(../img/svg/linkedin.svg);
+}
+.social__link--twitter {
+	background-image: url(../img/svg/twitter.svg);
+}
+.callback-form__btn {
+	width: 100%;
+	padding: 13px 68px 14px;
+	background-color: var(--accent-color);
+	border-radius: 20px;
+	font-family: 'Futura PT', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 23px;
+	color: #FFFFFF;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.callback-form__btn span {
+	margin-right: 10px;
+}
+.contacts__right {
+	width: calc(50% - 20px);
+	padding-right: 120px;
+}
+.contacts-form-wrapper {
+	background: #FFFFFF;
+	box-shadow: 4px 8px 40px rgba(8, 24, 111, 0.2);
+	border-radius: 20px;
+	padding: 40px 60px 60px;
+}
+.callback-form__input {
+	margin-bottom: 20px;
+}
+.callback-form__textarea {
+	resize: none;
+	height: 81px;
+	margin-bottom: 20px;
+}
